@@ -1885,6 +1885,10 @@ html[xmlns] .clearfix {
 		width:100%!important;
 		overflow:hidden;
 	}
+	#thePage .entry .wp-caption img, #singlePage .entry .wp-caption img {
+		max-width:100%!important;
+		height:auto!important;
+	}
 	body, #page, #featuredarticle {
 		padding:0;
 		background:#fff;
