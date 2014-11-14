@@ -32,14 +32,11 @@ else
 		}?>
         
         Share:
-        <!--<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="rvrb">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>-->
 
-        <a class="social-single" href="javascript:void(0)" onclick="javascript:window.open('http://twitter.com/share?text=<?php echo rawurlencode( html_entity_decode( get_the_title(), ENT_COMPAT, 'UTF-8' ) . ' | via @RVRB '); ?>&url=<?php echo rawurlencode( get_permalink() ); ?>', 'twitwin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=1');">Twitter</a>
+        <a class="social-single" href="javascript:void(0)" onclick="javascript:window.open('http://twitter.com/share?text=<?php echo rawurlencode( html_entity_decode( get_the_title(), ENT_COMPAT, 'UTF-8' ) . ' | via @RVRB '); ?>&url=<?php echo rawurlencode( get_shortlink() ); ?>', 'twitwin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=1');">Twitter</a>
 
-        <a class="social-single" href="javascript:void(0)" onclick="javascript:window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]=<?php echo urlencode( get_permalink() ); ?>&p[images][0]=<?php echo ( has_post_thumbnail() ) ? urlencode( wp_get_attachment_image_src( get_post_thumbnail_id(), 'large') ) : ''; ?>&p[title]=<?php echo urlencode( html_entity_decode( get_the_title(), ENT_COMPAT, 'UTF-8' ) ); ?>&p[summary]=<?php echo urlencode( html_entity_decode( ( get_the_excerpt() != '' ) ? get_the_excerpt() : get_bloginfo('description') ) ); ?>', 'fbwin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=1');">Facebook</a>
-              
-        <!-- <iframe src="http://www.facebook.com/plugins/like.php?app_id=140770579349058&amp;href=<?php the_permalink(); ?>&amp;send=false&amp;layout=button_count&amp;width=140&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=20" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:20px;" allowTransparency="true"></iframe> -->
-		
+        <a class="social-single" href="javascript:void(0)" onclick="javascript:window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]=<?php echo urlencode( get_shortlink() ); ?>&p[images][0]=<?php echo ( has_post_thumbnail() ) ? urlencode( wp_get_attachment_image_src( get_post_thumbnail_id(), 'large') ) : ''; ?>&p[title]=<?php echo urlencode( html_entity_decode( get_the_title(), ENT_COMPAT, 'UTF-8' ) ); ?>&p[summary]=<?php echo urlencode( html_entity_decode( ( get_the_excerpt() != '' ) ? get_the_excerpt() : get_bloginfo('description') ) ); ?>', 'fbwin', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=1');">Facebook</a>
+
 		</div>
       <?php wp_link_pages("<p><strong>" . __('Pages', 'spiegelmagazine') . ":</strong>", '</p>', __('number','spiegelmagazine')); ?>
     </div>
