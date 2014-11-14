@@ -1,0 +1,14 @@
+/* General Formatting	*/
+
+#footer {
+	margin-top:-1px;
+	}
+	
+ul.dropdown li { 
+	font-family:Arial, sans-serif;
+	font-size:18px;
+	}
+	
+ul.dropdown li a {
+	padding:10px 24px 0px;
+	}

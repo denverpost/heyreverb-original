@@ -1,0 +1,99 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title></title>
+</head>
+<body bgcolor="#131313">
+<br>
+<div id="wait" style="position: absolute; top: 200; left: 200; visibility:hidden; font-size: 1pt; color: white;">	
+<SCRIPT language="JavaScript" type="text/javascript">
+
+</SCRIPT>
+
+<SCRIPT language="JavaScript" type="text/javascript"><!--
+	var q = document.location.search;
+	getParam = function(arg){
+		
+		if (q.indexOf(arg) >= 0){
+			var pntr = q.indexOf(arg) + arg.length + 1;
+			if (q.indexOf("&", pntr) >= 0){
+				return q.substring(pntr, q.indexOf("&", pntr));
+			}else{
+				return q.substring(pntr, q.length);
+			}
+		}else{
+			return null;
+		}
+	}
+	
+	// These variables are passed from the photo gallery on the wordpress page.
+	 	var title = getParam('thepagetitle');
+	 	var imgnumber = getParam('thenumber');
+	
+	//-->
+	
+	
+    var oChnm = "Reverb";
+    var oRtnm = "Photo Galleries";
+    var Pgnm = "";
+    var oSp2nm = title; //Prop2
+    var oSp3nm = "Image Number: " + imgnumber; //Prop3 
+    var oSp4nm = ""; //Prop4
+    var oSp5nm = ""; //Prop5
+
+    var oBrdcm2 = oChnm + "/" + oRtnm; //Prop2
+    var oBrdcm3 = oChnm + "/" + oRtnm + "/" + oSp2nm; //Prop3
+    var oBrdcm4 = oChnm + "/" + oRtnm + "/" + oSp2nm + "/" + oSp3nm; //Prop4
+    var oBrdcm5 = oChnm + "/" + oRtnm + "/" + oSp2nm + "/" + oSp3nm + "/" + oSp4nm; //Prop5
+
+</SCRIPT>
+
+<div id="omniture" style="display:none;">
+<!-- SiteCatalyst code version: H.17.
+Copyright 1997-2005 Omniture, Inc. More info available at
+http://www.omniture.com -->
+
+<script language="JavaScript"><!--//
+/* Specify the Report Suite ID(s) to track here */
+ var s_account = "denverpost"
+//--></script>
+
+<script language="JavaScript" src="http://extras.mnginteractive.com/live/js/omniture/SiteCatalystCode_H_17.js"></script>
+<script language="JavaScript" src="http://extras.mnginteractive.com/live/js/omniture/OmnitureHelper.js"></script>
+<script language="JavaScript"><!--
+/* You may give each page an identifying name, server, and channel on the next lines. */
+s.pageName = Pgnm;
+s.channel = oChnm;
+s.prop1 = "D=g";
+s.prop2 = oBrdcm2;
+s.prop3 = oBrdcm3;
+s.prop4 = oBrdcm4;
+s.prop5 = oBrdcm5;
+s.prop9 = getCiQueryString("SOURCE");
+s.eVar2 = getCiQueryString("SOURCE");
+s.campaign = getCiQueryString("EADID") + getCiQueryString("CREF");
+s.events = "event1";
+s.eVar4 = s.pageName;
+//alert("omniture s.prop4: " + s.prop4);
+// s.zip=""
+// s.prop9=getCiQueryString("SOURCE")
+// s.eVar2=getCiQueryString("SOURCE")
+// /* E-commerce Variables */
+// s.campaign=getCiQueryString("EADID")+getCiQueryString("CREF")
+// s.events="event1"
+// s.eVar4=s.pageName
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code = s.t(); if (s_code) document.write(s_code)
+</script>
+<script language="JavaScript" type="text/javascript">
+if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-');
+</script>
+<noscript>
+<img src="http://denverpost.112.2O7.net/b/ss/denverpost/1/H.17--NS/0" height="1" width="1" border="0" alt="" />
+</noscript>
+<!-- End SiteCatalyst code version: H.17. -->
+</div>
+</div>
+</body>
+</html>

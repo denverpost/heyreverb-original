@@ -1,0 +1,33 @@
+/* Dropdown Nav fixes*/
+
+ul.dropdown li a {
+	padding:10px 1em 0px;
+	}
+	
+ul.dropdown li { 
+	padding-bottom:10px;
+	}
+	
+/* General Formatting	*/
+
+#content, #homepageLEFT {
+	margin:0 0 0 5px;
+	padding:0;
+	}
+	
+#homepageRIGHT {
+	margin:0;
+	padding:0
+	}
+	
+#homeleftcol, #homerightcol {
+	float:left;
+	}
+	
+.homebox .wp-caption {
+	display:none;
+	}
+	
+#dsq-form-area {
+	width:610px;
+	}

@@ -1,0 +1,11 @@
+/* Dropdown Nav fixes*/
+
+ul.dropdown li a {
+	padding:10px 1em 0px;
+	}
+	
+/* Slide Show*/
+
+div.navcontainer {
+	margin-bottom:75px;
+	}

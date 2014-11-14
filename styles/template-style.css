@@ -1,0 +1,160 @@
+/*****************************************************
+*   Special styles for the various page templates                      
+****************************************************/
+
+/* Styles for the "3-columns-page template" */
+
+#pageleft {
+	float: left;
+	width: 300px;
+	margin: 20px 20px 0px 0px;
+	text-align:justify;
+	}
+	
+#pagemiddle {
+	float: left;
+	width: 300px;
+	margin: 20px 20px 0px 0px;
+	text-align:justify;
+	}
+	
+#pageright {
+	float: right;
+	width: 300px;
+	margin: 20px 0px 0px 0px;
+	text-align:justify;
+	}
+
+#pageleft h2, #pageleft h2 a, #pagemiddle h2, #pagemiddle h2 a, #pageright h2, #pageright h2 a {
+	font-size:18px;
+	border:none;
+	margin:10px 0;
+	padding:0;
+	}
+	
+#pageleft h3, #pageleft h3 a, #pagemiddle h3, #pagemiddle h3 a, #pageright h3, #pageright h3 a {
+	color:#888;
+	}
+
+
+#pageleft li, #pagemiddle li, #pageright li{
+	list-style:none
+	}
+
+#pageleft .recent li, #pagemiddle .recent li, #pageright .recent li{
+	margin-bottom:5px;
+	padding-left:20px;
+	background:url(../images/icons/icon_sidebar-list.png) no-repeat;
+	}
+
+#pageleft a:link, #pageleft a:active, #pageleft a:visited {text-decoration:none;}
+#pageleft a:hover {text-decoration:underline;}
+
+#pagemiddle a:link, #pagemiddle a:active, #pagemiddle a:visited {text-decoration:none;}
+#pagemiddle a:hover {text-decoration:underline;}
+
+#pageright a:link, #pageright a:active, #pageright a:visited {text-decoration:none;}
+#pageright a:hover {text-decoration:underline;}
+
+
+
+/* Styles for the "featured-page template" */
+
+#featured-top {
+	width:964px;
+	float:left;
+	padding: 0 0 15px 0;
+	margin: 0 0 25px 0;
+	border-bottom:4px solid #ddd;
+	}
+
+#featured-content {
+	width:620px;
+	float:left;
+	}
+	
+	
+#featured-sidebar {
+	width: 300px;
+	float:right;
+	}
+	
+#featured-sidebar h3 {
+	border-bottom:2px solid #ccc;
+	padding:5px 0 5px 2px;
+	margin:0 0 20px 0;
+	}	
+	
+#featured-sidebar .sidebar_widget {
+	margin:20px 0 20px 0;
+	text-align:justify;
+	}
+	
+#featured-leftcol {
+	width:620px;
+	float:left;
+	margin:20px 0 0 0;
+	padding: 0 10px 0 0;
+	border-right: 2px solid #ccc;
+	}
+
+#featured-leftcol h2, #featured-content h2{
+	color: #5b6a2d;
+	font: 1.6em Arial, Helvetica, sans-serif;
+	margin: 0 0 10px 0;
+	border:none;
+	}
+
+#featured-rightcol h2 {
+	font: 0.9em Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:0.1em;
+	margin:0 0 10px 0;
+	font-weight:bold;
+	color:#5b6a2d;
+	border-bottom:2px solid #ccc;
+	}
+
+#featured-leftcol img{
+	background:#f4f4f4; 
+	outline: 1px solid #eee;
+	border:1px solid #f9f9f9; 
+	padding:8px;
+	}
+
+#featured-rightcol{
+	width:300px;
+	float:right;
+	margin-top:20px;
+	}
+
+#featured-rightcol li {
+	list-style:none
+	}
+
+#featured-rightcol .recent li{
+	margin-bottom:5px;
+	padding-left:20px;
+	background:url(../images/icons/icon_sidebar-list.png) no-repeat;
+	}
+
+#featured-rightcol a:link, #featured-rightcol a:active, #featured-rightcol a:visited {text-decoration:none;}
+#featured-rightcol a:hover {text-decoration:underline;}
+
+
+/* Styles for the "fullwidth-page template" */
+
+#fullwidthpage {
+	float: left;
+	width: 964px;
+	text-align:justify;
+	background:#FFF;
+	}
+
+#fullwidthpage h2 {
+	color: #942419;
+	font: 24px "Arial Narrow",sans-serif;
+	font-weight:bold;
+	padding-bottom:8px;
+	margin: 20px 20px 10px 20px;
+	}

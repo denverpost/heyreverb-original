@@ -1,0 +1,863 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WyntonMagazine\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-21 13:54+0100\n"
+"PO-Revision-Date: 2008-04-21 13:57+0100\n"
+"Last-Translator: Michael Oeser - DER PRiNZ <kontakt@der-prinz.com>\n"
+"Language-Team: Michael Oeser <support@der-prinz.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:5
+#@ spiegelmagazine
+msgid "Nothing found"
+msgstr "Keine Inhalte gefunden"
+
+#: archive.php:9
+#, php-format
+#@ spiegelmagazine
+msgid "%s"
+msgstr "%s"
+
+#: archive.php:12
+#@ spiegelmagazine
+msgid "Posts Tagged"
+msgstr "Beitr&auml;ge zum Stichwort"
+
+#: archive.php:17
+#: archive.php:19
+#: archive.php:21
+#, php-format
+#@ spiegelmagazine
+msgid "Archive for %s"
+msgstr "Archiv f&uuml;r %s"
+
+#: archive.php:17
+#: archive.php:44
+#: search.php:13
+#: single.php:15
+#@ spiegelmagazine
+msgid "F jS, Y"
+msgstr "j. F Y"
+
+#: archive.php:19
+#@ spiegelmagazine
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:24
+#: search.php:7
+#@ spiegelmagazine
+msgid "Search Results"
+msgstr "Suchergebnis"
+
+#: archive.php:28
+#@ spiegelmagazine
+msgid "All entries by this author"
+msgstr "Alle Beitr&auml;ge dieses Autors"
+
+#: archive.php:32
+#@ spiegelmagazine
+msgid "Blog Archives"
+msgstr "Blogarchiv"
+
+#: archive.php:37
+#: search.php:12
+#: tpl_3-column-page.php:19
+#: tpl_3-column-page.php:58
+#: tpl_3-column-page.php:97
+#@ spiegelmagazine
+msgid "Permanent Link to"
+msgstr "Permanent Link zu"
+
+#: archive.php:41
+#: single.php:12
+#@ spiegelmagazine
+msgid "By"
+msgstr "Von"
+
+#: archive.php:46
+#: single.php:17
+#@ spiegelmagazine
+msgid "Category:"
+msgstr "Kategorie:"
+
+#: archive.php:49
+#: single.php:20
+#@ spiegelmagazine
+msgid "No Comments &#187;"
+msgstr "Keine Kommentare &#187;"
+
+#: archive.php:49
+#: single.php:20
+#@ spiegelmagazine
+msgid "1 Comment &#187;"
+msgstr "1 Kommentar &#187;"
+
+#: archive.php:79
+#@ spiegelmagazine
+msgid "Not Found"
+msgstr "Nichts gefunden"
+
+#: 404.php:11
+#: 404.php:17
+#: archives.php:13
+#@ spiegelmagazine
+msgid "Archives by Month:"
+msgstr "Archiv nach Monat:"
+
+#: 404.php:25
+#: archives.php:18
+#@ spiegelmagazine
+msgid "Archives by Subject:"
+msgstr "Archiv nach Thema:"
+
+#: comments.php:7
+#@ spiegelmagazine
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dieser Beitrag ist passwortgesch&uuml;tzt."
+
+#: tools/custom-widgets.php:497
+#@ spiegelmagazine
+msgid "on"
+msgstr "am"
+
+#: comments.php:38
+#@ spiegelmagazine
+msgid "Comments are closed."
+msgstr "Keine Kommentare m&ouml;glich."
+
+#: comments.php:62
+#@ spiegelmagazine
+msgid "Log out of this account"
+msgstr "Ausloggen"
+
+#: comments.php:67
+#: tools/custom-widgets.php:670
+#@ spiegelmagazine
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:67
+#: comments.php:70
+#@ spiegelmagazine
+msgid "(required)"
+msgstr "(erforderlich)"
+
+#: comments.php:70
+#@ spiegelmagazine
+msgid "Mail (will not be published)"
+msgstr "Mail (wird nicht ver&ouml;ffentlicht)"
+
+#: comments.php:73
+#@ spiegelmagazine
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:81
+#@ spiegelmagazine
+msgid "Submit Comment"
+msgstr "Kommentar senden"
+
+#: index.php:19
+#@ spiegelmagazine
+msgid "M jS, Y"
+msgstr "j. F Y"
+
+#: links.php:11
+#@ spiegelmagazine
+msgid "Links:"
+msgstr "Links:"
+
+#: page.php:9
+#: single.php:24
+#: tpl_featured-page.php:44
+#: tpl_fullwidth-page.php:14
+#@ spiegelmagazine
+#@ branfordmagazine
+msgid "Read the rest of this page"
+msgstr "Weiterlesen..."
+
+#: page.php:11
+#: single.php:26
+#: tpl_featured-page.php:45
+#: tpl_fullwidth-page.php:16
+#@ spiegelmagazine
+#@ branfordmagazine
+msgid "Pages"
+msgstr "Seiten"
+
+#: page.php:11
+#: single.php:26
+#: tpl_featured-page.php:45
+#: tpl_fullwidth-page.php:16
+#@ spiegelmagazine
+#@ branfordmagazine
+msgid "number"
+msgstr "Anzahl"
+
+#: search.php:24
+#@ spiegelmagazine
+msgid "&laquo; Previous entries"
+msgstr "&laquo;  Vorherige Eintr&auml;ge"
+
+#: search.php:25
+#@ spiegelmagazine
+msgid "Next entries &raquo;"
+msgstr "N&auml;chste Eintr&auml;ge &raquo;"
+
+#: search.php:30
+#@ spiegelmagazine
+msgid "No posts found. Try a different search?"
+msgstr "Nichts gefunden. Neue Suche?"
+
+#: tpl_3-column-page.php:29
+#: tpl_3-column-page.php:68
+#: tpl_3-column-page.php:107
+#@ spiegelmagazine
+msgid "More from this category"
+msgstr "Mehr aus dieser Kategorie"
+
+#: sidebar.php:32
+#: tools/custom-widgets.php:328
+#: tpl_featured-page.php:26
+#@ spiegelmagazine
+msgid "Recent Posts"
+msgstr "Letzte Beitr&auml;ge"
+
+#: tools/custom-widgets.php:416
+#@ spiegelmagazine
+msgid "Recent Comments"
+msgstr "Letzte Kommentare"
+
+#: sidebar.php:48
+#@ spiegelmagazine
+msgid "Stay informed"
+msgstr "Auf dem Laufenden bleiben"
+
+#: single.php:33
+#@ spiegelmagazine
+msgid "Sorry, no posts matched your criteria."
+msgstr "Leider keine Eintr&auml;ge zur Sucheanfrage gefunden."
+
+#: 404.php:8
+#@ spiegelmagazine
+msgid "Sorry, but it seems as if the content you are looking for has been moved or deleted. Please try the sitesearch, look up the archives or go to the homepage."
+msgstr "Scheinbar wurde der Inhalt nach dem Sie suchen verschoben, oder gelöscht. Bitter verwenden Sie die Suchfunktion, oder gehen Sie zur Homepage."
+
+#: archive.php:49
+#: single.php:20
+#@ spiegelmagazine
+msgid "% comment"
+msgid_plural "% comments"
+msgstr[0] "% Kommentar"
+msgstr[1] "% Kommentare"
+
+#: archive.php:64
+#@ spiegelmagazine
+msgid "Previous entries"
+msgstr "Vorherige Einträge"
+
+#: archive.php:74
+#@ spiegelmagazine
+msgid "Next entries"
+msgstr "Nächste Einträge"
+
+#: comments.php:16
+#@ spiegelmagazine
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: comments.php:16
+#@ spiegelmagazine
+msgid "One Comment"
+msgstr "Ein Kommentar"
+
+#: comments.php:16
+#@ spiegelmagazine
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: comments.php:16
+#, php-format
+#@ spiegelmagazine
+msgid "to &#8220;%s&#8221;"
+msgstr "zu &#8220;%s&#8221;"
+
+#: comments.php:48
+#@ spiegelmagazine
+msgid "Leave a Comment"
+msgstr "Kommentar schreiben"
+
+#: comments.php:48
+#, php-format
+#@ spiegelmagazine
+msgid "Leave a Comment for %s"
+msgstr "Einen Kommentar zu %s schreiben"
+
+#: comments.php:55
+#, php-format
+#@ spiegelmagazine
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Sie müssen <a href=\\\"%s\\\">eingeloggt</a> sein, um einen Kommentar zu schreiben."
+
+#: comments.php:62
+#, php-format
+#@ spiegelmagazine
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "Angemeldet als <a href=\"%1$s\">%2$s</a>."
+
+#: comments.php:62
+#@ spiegelmagazine
+msgid "Log out &raquo;"
+msgstr "Log out »"
+
+#: comments.php:77
+#, php-format
+#@ spiegelmagazine
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML:</strong> Sie können diese Tags benutzen: <code>%s</code>"
+
+#: functions.php:38
+#: tools/theme-options.php:38
+msgid "The leadarticle area provides the big image slider or specific content depending on the settings."
+msgstr ""
+
+#: functions.php:42
+#: tools/theme-options.php:42
+msgid "WP-Cycle"
+msgstr ""
+
+#: functions.php:43
+#: tools/theme-options.php:43
+msgid "Check this box if you want to use the <a href=\"http://wordpress.org/extend/plugins/wp-cycle/\">WP-Cycle Plugin</a>"
+msgstr ""
+
+#: functions.php:48
+#: tools/theme-options.php:48
+msgid "Leadarticle category"
+msgstr ""
+
+#: functions.php:93
+#: functions.php:165
+#: functions.php:178
+#: functions.php:191
+#: tools/theme-options.php:93
+#: tools/theme-options.php:165
+#: tools/theme-options.php:178
+#: tools/theme-options.php:191
+msgid "1"
+msgstr ""
+
+#: functions.php:59
+#: tools/theme-options.php:59
+msgid "The featured articles are the 3 articles below the image/content slider on the homepage. They are taken from one specific category that you might call whatever you want."
+msgstr ""
+
+#: functions.php:63
+#: tools/theme-options.php:63
+msgid "Featured articles category"
+msgstr ""
+
+#: functions.php:74
+#: tools/theme-options.php:74
+msgid "In the lower area of the homepage two columns (left, right) with different categories are displayed. Here you can define which ones."
+msgstr ""
+
+#: functions.php:78
+#: tools/theme-options.php:78
+msgid "Homepage categories left"
+msgstr ""
+
+#: functions.php:79
+#: functions.php:85
+#: tools/theme-options.php:79
+#: tools/theme-options.php:85
+msgid "Enter the IDs of the categories separated by a comma"
+msgstr ""
+
+#: functions.php:81
+#: functions.php:87
+#: tools/theme-options.php:81
+#: tools/theme-options.php:87
+msgid "1,2"
+msgstr ""
+
+#: functions.php:84
+#: tools/theme-options.php:84
+msgid "Homepage categories right"
+msgstr ""
+
+#: functions.php:90
+#: tools/theme-options.php:90
+msgid "Homepage categories number of posts per category"
+msgstr ""
+
+#: functions.php:91
+#: tools/theme-options.php:91
+msgid "Enter a number of posts per category displayed in the in the middle column of the homepage (default = 1)"
+msgstr ""
+
+#: functions.php:100
+#: tools/theme-options.php:100
+msgid "Here you can define the dimensions (width and height in pixels) of the various images on the homepage."
+msgstr ""
+
+#: functions.php:104
+#: tools/theme-options.php:104
+msgid "Leadarticle Image Width "
+msgstr ""
+
+#: functions.php:105
+#: tools/theme-options.php:105
+msgid "Set the width of the image in the leadarticle (default = 460). Only required if you do not use the wp-cycle image slider. "
+msgstr ""
+
+#: functions.php:110
+#: tools/theme-options.php:110
+msgid "Leadarticle Image Height "
+msgstr ""
+
+#: functions.php:111
+#: tools/theme-options.php:111
+msgid "Set the height of the leadarticle image (default = 250). Only required if you do not use the wp-cycle image slider."
+msgstr ""
+
+#: functions.php:116
+#: tools/theme-options.php:116
+msgid "Featured Article Images Height"
+msgstr ""
+
+#: functions.php:117
+#: tools/theme-options.php:117
+msgid "Set the height in pixels (i.e 100 if you want it to be 100 pixels high. Default = 130). The width can not be changed for this image because that might destroy the layout."
+msgstr ""
+
+#: functions.php:119
+#: tools/theme-options.php:119
+msgid "130"
+msgstr ""
+
+#: functions.php:122
+#: tools/theme-options.php:122
+msgid "Category Thumbnails Width "
+msgstr ""
+
+#: functions.php:123
+#: tools/theme-options.php:123
+msgid "Set the width of the thumbnail images in the area below the featured articles (default = 170)."
+msgstr ""
+
+#: functions.php:128
+#: tools/theme-options.php:128
+msgid "Category Thumbnails Height "
+msgstr ""
+
+#: functions.php:129
+#: functions.php:141
+#: tools/theme-options.php:129
+#: tools/theme-options.php:141
+msgid "Set the height of the thumbnails (default = 110)."
+msgstr ""
+
+#: functions.php:134
+#: tools/theme-options.php:134
+msgid "Category Archive Thumbnails Width "
+msgstr ""
+
+#: functions.php:135
+#: tools/theme-options.php:135
+msgid "Set the width of the thumbnail images in category archive pages (default = 170)."
+msgstr ""
+
+#: functions.php:140
+#: tools/theme-options.php:140
+msgid "Category Archive Thumbnails Height "
+msgstr ""
+
+#: functions.php:155
+#: tools/theme-options.php:155
+msgid "3 column page left side category"
+msgstr ""
+
+#: functions.php:162
+#: tools/theme-options.php:162
+msgid "3-column page left number of posts per category"
+msgstr ""
+
+#: functions.php:163
+#: tools/theme-options.php:163
+msgid "Enter a number of posts displayed in the in the left column of the 3-column page (default = 1)"
+msgstr ""
+
+#: functions.php:168
+#: tools/theme-options.php:168
+msgid "3 column page middle category"
+msgstr ""
+
+#: functions.php:175
+#: tools/theme-options.php:175
+msgid "3-column page middle number of posts per category"
+msgstr ""
+
+#: functions.php:176
+#: tools/theme-options.php:176
+msgid "Enter a number of posts displayed in the in the middle column of the 3-column page (default = 1)"
+msgstr ""
+
+#: functions.php:181
+#: tools/theme-options.php:181
+msgid "3 column page right side category"
+msgstr ""
+
+#: functions.php:188
+#: tools/theme-options.php:188
+msgid "3-column page right number of posts per category"
+msgstr ""
+
+#: functions.php:189
+#: tools/theme-options.php:189
+msgid "Enter a number of posts displayed in the in the right column of the 3-column page (default = 1)"
+msgstr ""
+
+#: functions.php:215
+#: tools/theme-options.php:215
+msgid "Homepage advert code"
+msgstr ""
+
+#: functions.php:216
+#: tools/theme-options.php:216
+msgid "Copy and paste your advert code (best fit 728x90px) into the box (e.g. Google AdSense)"
+msgstr ""
+
+#: functions.php:224
+#: tools/theme-options.php:224
+msgid "Google Analytics"
+msgstr ""
+
+#: functions.php:225
+#: tools/theme-options.php:225
+msgid "Copy and paste your Google Analytics (or onother tracking) code into the box."
+msgstr ""
+
+#: index.php:21
+#@ spiegelmagazine
+msgid "Continue reading"
+msgstr "Weiterlesen..."
+
+#: sidebar.php:13
+#: tools/custom-widgets.php:83
+#@ spiegelmagazine
+msgid "More from"
+msgstr "Mehr aus"
+
+#: tools/custom-widgets.php:32
+#@ spiegelmagazine
+msgid "More in"
+msgstr "Mehr in"
+
+#: tools/custom-widgets.php:119
+#@ spiegelmagazine
+msgid "Newsletter form for Feedburner eMail Subscription"
+msgstr ""
+
+#: tools/custom-widgets.php:120
+#@ spiegelmagazine
+msgid "PRiNZ Newsletter"
+msgstr ""
+
+#: tools/custom-widgets.php:129
+#: tools/custom-widgets.php:160
+#@ spiegelmagazine
+msgid "Signup to our Newsletter"
+msgstr ""
+
+#: tools/custom-widgets.php:139
+#@ spiegelmagazine
+msgid "Submit"
+msgstr ""
+
+#: tools/custom-widgets.php:165
+#: tools/custom-widgets.php:254
+#: tools/custom-widgets.php:379
+#: tools/custom-widgets.php:454
+#: tools/custom-widgets.php:565
+#: tools/custom-widgets.php:663
+msgid "Title"
+msgstr ""
+
+#: tools/custom-widgets.php:172
+msgid "Feedburner ID"
+msgstr ""
+
+#: tools/custom-widgets.php:179
+#: tools/custom-widgets.php:578
+#@ spiegelmagazine
+msgid "Text"
+msgstr ""
+
+#: tools/custom-widgets.php:199
+#@ spiegelmagazine
+msgid "Display latest Tweets"
+msgstr ""
+
+#: tools/custom-widgets.php:200
+#@ spiegelmagazine
+msgid "PRiNZ Twitter"
+msgstr ""
+
+#: tools/custom-widgets.php:207
+#@ spiegelmagazine
+msgid "Latest Tweets"
+msgstr ""
+
+#: tools/custom-widgets.php:210
+#@ spiegelmagazine
+msgid "More updates on Twitter"
+msgstr ""
+
+#: tools/custom-widgets.php:261
+msgid "User"
+msgstr ""
+
+#: tools/custom-widgets.php:268
+#@ spiegelmagazine
+msgid "Number of tweets to show"
+msgstr ""
+
+#: tools/custom-widgets.php:273
+#: tools/custom-widgets.php:390
+#: tools/custom-widgets.php:466
+msgid "(max. 15)"
+msgstr ""
+
+#: tools/custom-widgets.php:278
+#@ spiegelmagazine
+msgid "Show link to Twitter"
+msgstr ""
+
+#: tools/custom-widgets.php:283
+#: tools/custom-widgets.php:591
+#@ spiegelmagazine
+msgid "Link label"
+msgstr ""
+
+#: tools/custom-widgets.php:305
+#@ spiegelmagazine
+msgid "Display recent posts"
+msgstr ""
+
+#: tools/custom-widgets.php:306
+#@ spiegelmagazine
+msgid "PRiNZ Recent Posts"
+msgstr ""
+
+#: tools/custom-widgets.php:385
+msgid "Number of posts to show:"
+msgstr ""
+
+#: tools/custom-widgets.php:408
+#@ spiegelmagazine
+msgid "Display recent comments"
+msgstr ""
+
+#: tools/custom-widgets.php:409
+#@ spiegelmagazine
+msgid "PRiNZ Comments"
+msgstr ""
+
+#: tools/custom-widgets.php:461
+#@ spiegelmagazine
+msgid "Number of comments"
+msgstr ""
+
+#: tools/custom-widgets.php:470
+#@ spiegelmagazine
+msgid "Length of comment excerpt"
+msgstr ""
+
+#: tools/custom-widgets.php:515
+#@ spiegelmagazine
+msgid "Display an about section in the Sidebar"
+msgstr ""
+
+#: tools/custom-widgets.php:516
+#@ spiegelmagazine
+msgid "PRiNZ About"
+msgstr ""
+
+#: tools/custom-widgets.php:523
+#@ spiegelmagazine
+msgid "About this Site"
+msgstr ""
+
+#: tools/custom-widgets.php:525
+#@ spiegelmagazine
+msgid "Your text about you."
+msgstr ""
+
+#: tools/custom-widgets.php:527
+#@ spiegelmagazine
+msgid "More about us"
+msgstr ""
+
+#: tools/custom-widgets.php:573
+#@ spiegelmagazine
+msgid "Show admin's avatar"
+msgstr ""
+
+#: tools/custom-widgets.php:585
+#@ spiegelmagazine
+msgid "Post/page ID for link"
+msgstr ""
+
+#: tools/custom-widgets.php:611
+#@ spiegelmagazine
+msgid "Display contact info in the Sidebar"
+msgstr ""
+
+#: tools/custom-widgets.php:612
+#@ spiegelmagazine
+msgid "PRiNZ Contact Info"
+msgstr ""
+
+#: tools/custom-widgets.php:619
+#@ spiegelmagazine
+msgid "Contact Info"
+msgstr ""
+
+#: tools/custom-widgets.php:633
+#@ spiegelmagazine
+msgid "Send us an Email"
+msgstr ""
+
+#: tools/custom-widgets.php:677
+#@ spiegelmagazine
+msgid "Street"
+msgstr ""
+
+#: tools/custom-widgets.php:684
+#@ spiegelmagazine
+msgid "ZIP City"
+msgstr ""
+
+#: tools/custom-widgets.php:691
+#@ spiegelmagazine
+msgid "Phone"
+msgstr ""
+
+#: tools/custom-widgets.php:698
+#@ spiegelmagazine
+msgid "Email (spam-protected)"
+msgstr ""
+
+#: tools/widgetized-areas.php:11
+#@ spiegelmagazine
+msgid "The regular sidebar on the right side of the pages."
+msgstr ""
+
+#: tools/widgetized-areas.php:24
+#: tools/widgetized-areas.php:34
+#: tools/widgetized-areas.php:44
+#: tools/widgetized-areas.php:54
+#@ branfordmagazine
+msgid "The widgetized area of the alternative Footer"
+msgstr ""
+
+#: tools/widgetized-areas.php:69
+#@ spiegelmagazine
+msgid "The sidebar of the featured page right to the main content. A good position to put textwidgets."
+msgstr ""
+
+#: tools/widgetized-areas.php:80
+#@ spiegelmagazine
+msgid "The featured page topright sidebar where the 5 most recent posts are located by default."
+msgstr ""
+
+#: tools/widgetized-areas.php:94
+#@ spiegelmagazine
+msgid "The widget area in the 3-columns page template left column."
+msgstr ""
+
+#: tools/widgetized-areas.php:105
+#@ spiegelmagazine
+msgid "The widget area in the 3-columns page template middle column."
+msgstr ""
+
+#: tools/widgetized-areas.php:116
+#@ spiegelmagazine
+msgid "The widget area in the 3-columns page template right column."
+msgstr ""
+
+#: tools/wp-cycle/wp-cycle.php:225
+#@ wp_cycle
+msgid "WP-Cycle Plugin customized for PRiNZ SpiegelMagazine"
+msgstr ""
+
+#: tools/wp-cycle/wp-cycle.php:227
+#@ wp_cycle
+msgid "WP-Cycle Images"
+msgstr ""
+
+#: tools/wp-cycle/wp-cycle.php:292
+#@ wp-cycle
+msgid "WP-Cycle Settings"
+msgstr ""
+
+#: tools/wp-cycle/wp-cycle.php:347
+msgid "Save Settings"
+msgstr ""
+
+#: tools/wp-cycle/wp-cycle.php:358
+msgid "Reset Settings"
+msgstr ""
+
+#: tpl_featured-page.php:61
+#@ spiegelmagazine
+msgid "Textwidgets"
+msgstr ""
+
+#: functions.php:49
+#: tools/theme-options.php:49
+msgid "Select the category that will be used as the leadarticle category (only required if you do not use the wp-cycle image slider)."
+msgstr ""
+
+#: functions.php:64
+#: tools/theme-options.php:64
+msgid "Select the category that will be used as the featured article category"
+msgstr ""
+
+#: functions.php:156
+#: tools/theme-options.php:156
+msgid "Select the category that will be used in the left column of the 3-column page"
+msgstr ""
+
+#: functions.php:169
+#: tools/theme-options.php:169
+msgid "Select the category that will be used in the middle column of the 3-column page"
+msgstr ""
+
+#: functions.php:182
+#: tools/theme-options.php:182
+msgid "Select the category that will be used in the right column of the 3-column page"
+msgstr ""
+
+#: tools/wp3-stuff.php:13
+msgid "Primary Menu"
+msgstr ""
+
+#: tools/wp3-stuff.php:14
+msgid "Secondary Menu"
+msgstr ""
+
