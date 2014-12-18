@@ -117,7 +117,7 @@ if ( is_home() ) {
   echo get_bloginfo('name') . '  &raquo; 404 - ERROR';
 } else {
   // Everything else. Fallback
-  bloginfo('name'); wp_title();
+  wp_title();
 }
 echo '</title>';
 ?>
