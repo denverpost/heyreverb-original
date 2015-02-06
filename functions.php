@@ -661,7 +661,7 @@ function add_post_featured_image_as_rss_item_enclosure() {
 		'<enclosure url="%s" length="%s" type="%s" />',
 		//$thumbnail['url'],
 		$thumbnail,
-		filesize( $filesize ),
+		$filesize,
 		//filesize( path_join( $upload_dir['basedir'], $thumbnail['path'] ) ), 
 		get_post_mime_type( $thumbnail_id ) 
 	);
