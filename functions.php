@@ -607,7 +607,7 @@ function flipboard_attached_images() {
             $img_attr = wp_get_attachment_image_src( $att->ID, 'full' );
             ?>
             <media:content url="<?php echo $img_attr[0]; ?>" width="<?php echo $img_attr[1]; ?>" height="<?php echo $img_attr[2]; ?>" medium="image" type="<?php echo $att->post_mime_type; ?>">
-                <media:title type="plain"><![CDATA[<?php echo $att->post_title; ?>]]></media:title>
+                <media:title type="plain"><![CDATA[<?php echo html_entity_decode( $att->post_title ); ?>]]></media:title>
                 <media:copyright>The Denver Post</media:copyright>
                 <media:description type="plain"><![CDATA[<?php echo $att->post_excerpt; ?>]]></media:description>
             </media:content>
@@ -648,7 +648,7 @@ function add_post_featured_image_as_rss_item_enclosure() {
 	//$thumbnail_size = apply_filters( 'rss_enclosure_image_size', 'large' );
 	$thumbnail_id = get_post_thumbnail_id( $post->ID );
 	//$thumbnail = image_get_intermediate_size( $thumbnail_id, 'large' );
-	
+	$filesize = filesize( get_attached_file( $thumbnail_id ) );
 	$thumbnail = wp_get_attachment_url($thumbnail_id, 'full', false, '');
 
 	if ( empty( $thumbnail ) )
@@ -660,7 +660,7 @@ function add_post_featured_image_as_rss_item_enclosure() {
 		'<enclosure url="%s" length="%s" type="%s" />',
 		//$thumbnail['url'],
 		$thumbnail,
-		filesize( $thumbnail ),
+		filesize( $filesize ),
 		//filesize( path_join( $upload_dir['basedir'], $thumbnail['path'] ) ), 
 		get_post_mime_type( $thumbnail_id ) 
 	);
