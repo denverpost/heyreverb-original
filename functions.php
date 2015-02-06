@@ -649,7 +649,6 @@ function add_post_featured_image_as_rss_item_enclosure() {
 	$thumbnail_id = get_post_thumbnail_id( $post->ID );
 	//$thumbnail = image_get_intermediate_size( $thumbnail_id, 'large' );
 	$filesize = filesize( get_attached_file( $thumbnail_id ) );
-	echo $filesize;
 	$thumbnail = wp_get_attachment_url($thumbnail_id, 'full', false, '');
 
 	if ( empty( $thumbnail ) )
