@@ -81,10 +81,9 @@
 		        <?php while ($lead_query->have_posts()) : $lead_query->the_post(); ?>
 		        <h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h3>
 				<?php 
-				$thumb = get_post_meta($post->ID, 'article_image', true);
-				if(!empty($thumb)) { 
-					$thumb_markup = generate_thumb($thumb); /* this function is in the themes functions.php */ ?>
-				<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><img style="border:3px solid #000;" src="<?php echo $thumb_markup['articleBig_url'];?></a>
+				$thumb = get_post_meta($post->ID, 'Featured', true);
+				if(empty($thumb)) { ?>
+					<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><img style="border:3px solid #000;" src="<?php echo $thumb; ?>" /></a>
 				<?php 
 				echo strip_tags(the_content('Read more...',true),'<img>'); }
 				else {
