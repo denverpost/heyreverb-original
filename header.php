@@ -25,12 +25,12 @@ if(is_single() || is_page()) {
   $twitter_url    = get_permalink();
   $twitter_desc   = htmlentities(get_the_excerpt());
   $twitter_title  = get_the_title();
-  $twitter_thumbs = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), large);
+  $twitter_thumbs = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
     $twitter_thumb  = $twitter_thumbs[0];
   if(!$twitter_thumb) {
     $twitter_thumb = 'http://local.denverpost.com/common/dfm/assets/logos/small/denverpost.png';
   }
-  $temp_post = get_post($post_id);
+  $temp_post = get_post($post->ID);
     $twitter_user_id = $temp_post->post_author;
 ?>
 <meta name="twitter:card" value="summary" />
