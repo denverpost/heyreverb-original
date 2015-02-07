@@ -82,7 +82,7 @@
 		        <h3><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h3>
 				<?php 
 				$thumb = get_post_meta($post->ID, 'Featured', true);
-				if(empty($thumb)) { ?>
+				if(!empty($thumb)) { ?>
 					<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><img style="border:3px solid #000;" src="<?php echo $thumb; ?>" /></a>
 				<?php 
 				echo strip_tags(the_content('Read more...',true),'<img>'); }
